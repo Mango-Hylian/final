@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header{
+	background-color: Black;
+	text-align: center;
+	border-top: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+	padding-top: 15px;
+}
+body{
+	font-family: 'Roboto', sans-serif; color:black;
+	margin: 0;
+	background-color: black;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+nav li{
+	display: inline;
+}
+nav ul{
+	display: inline;
+	list-style-type: none;
+	padding-bottom: 40px;
+}
+.fa{
+	font-size: 25px;
+	color: red;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: gray;
+}
+nav a:hover{
+	color: red;
+}
+nav a:active{
+	color: white;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 0;
+}
+nav{
+	text-align: center;
+	background-color: black;
+	padding: 5px;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	color: white;
+}
+footer{
+	color: white;
+	text-align: center;
+	border: 3px solid red;
+	padding: 10px;
+	background-color: black;
+}
+h4{
+	font-size: 1em;
+}
+.twitch-embed{
+	text-align: center;
+	padding-left: 100em;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
